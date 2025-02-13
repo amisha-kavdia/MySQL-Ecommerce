@@ -1,14 +1,17 @@
+# Dataset_link - https://www.kaggle.com/datasets/devarajv88/target-dataset?select=products.csv
+
 # Overview
 This project builds an eCommerce database using MySQL with data imported from CSV files. 
 It includes tables for sellers, customers, orders, order items, and products to manage and analyze eCommerce transactions.
 
 # Tables and Relationships
-Customers.csv (customer_id as Primary Key)
-Sellers.csv (seller_id as Primary Key)
-Products.csv (product_id as Primary Key)
-Orders.csv (order_id as Primary Key, Foreign Key: customer_id)
-Order_Items.csv ( Foreign Keys: order_id, product_id, seller_id)
+1. Customers.csv (customer_id as Primary Key)
+2. Sellers.csv (seller_id as Primary Key)
+3. Products.csv (product_id as Primary Key)
+4. Orders.csv (order_id as Primary Key, Foreign Key: customer_id)
+5. Order_Items.csv ( Foreign Keys: order_id, product_id, seller_id)
 
+# Topics
 1. Subqueries
 A subquery is a query nested inside another query. It is used to perform intermediate calculations that are later used by the main query.
 
